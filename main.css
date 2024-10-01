@@ -1,1 +1,10 @@
 main{background-color: bisque;}
+h1,footer{background-color: rgb(199, 216, 123); text-align: center;}
+img{padding: 30px;}
+form{padding: 20px; text-align: center;}
+ul{background-color: bisque; list-style-type: none;}
+ul a{color: rgb(26, 146, 15);font-weight: 900; }
+a:hover{background-color: rgb(121, 196, 71);}
+table{padding: 30px; }
+#filters{color: rgb(20, 70, 0);}
+.table{background-color: rgb(206, 218, 175);}
