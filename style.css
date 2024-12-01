@@ -2,7 +2,9 @@
 body {
     font-family: "Space Grotesk", serif;
     background-color: #f0f0f0;
-    background-image: url(https://i0.wp.com/meccinteriors.com/wp-content/uploads/2016/03/04-Backyard-Zen-Garden-via-interiordesignarticle_com.jpg);
+    background-image: url(https://wallpapers.com/images/hd/asian-background-5kb2a12yy5uojwgf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 * {
     margin: 0;
@@ -18,10 +20,12 @@ h1 {
 }
 
 p {
-    font-size: 15px;
+    font-size: large;
     line-height: 2;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -44,15 +48,30 @@ footer {
     text-align: center;
 }
 
-.sidebar {
+.sidebar {background-color: rgba(52, 155, 121, 0.753);
     position: fixed;
     height: 100%;
-    width: 200px;
-    background-color: ;
+    width: 125px;
     top: 5px;
-    right: 5px;
+    left: 5px;
 }
 
 .sidebar li {
     list-style-type: none;
 }
+.page-wrapper {
+    margin-left:200px;
+    padding-left: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+a:link {
+    color: aliceblue;
+}
+a:hover{ color: black;}
+
+a:visited{color: #ccaf09;}
+
+.summary p{color: #1b17e0;}
