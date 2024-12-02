@@ -1,92 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap');  /* imported google font */
 body {
-    font-family: "Space Grotesk", serif;
-    background-color: #f0f0f0;
-    background-image: url(https://wallpapers.com/images/hd/asian-background-5kb2a12yy5uojwgf.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: "Space Grotesk", serif; /* font for the entire page */ 
+    background-image: url(https://wallpapers.com/images/hd/asian-background-5kb2a12yy5uojwgf.jpg); /* url for background image */
+    background-size: cover;  /* image extended to fit the page */
+    background-repeat: no-repeat; /* image will not repeat itself */
 }
 
-h1 {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+h1 { /* all changes done to the <h1> tag */
+    font-size: 36px; /* size of th <h1> */
+    text-align: center; /* <h1> is centered */
+    margin-bottom: 20px; /* size of the margin bottom of content */
+    color: #333; /* color of said content */
 }
 
-p {
-    font-size: large;
-    line-height: 2;
-    margin-bottom: 18px;
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+p { /* all changes done to the <p> tag */
+    font-size: 20px; /* size of the text */
+    line-height: 2; /* line height of each character */
+    margin-bottom: 18px; /* the size of ot the bottom */
+    text-align: auto; /* how the text is aligned */
+    color: rgba(red, green, blue, alpha); /* color of text */
+    font-family: 'Times New Roman', Times, serif; /* font for content */
+    font-weight: 700; /* weight tied to font */
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
+ul { /* an un ordered list */
+    list-style: none; /* type of list used */
+    padding-left: 5px; /* padding for content */
 }
 
-li{
-    margin-bottom: 10px;
+li{ /* changes done to the <li> tag */
+    margin-bottom: 10px; /* size of the bottom of content */
 }
 
-h3 {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 10px;
+h3 { /* changes done to the <h3> tag */
+    font-size: 25px; /* pixel size of the title */
+    margin-bottom: 10px;  /* size of the bottom of content */
+    color: black;  /* color of border */
+    border: 4px solid; /* border around <h3> tags */
+    width: fit-content; /* border is set to fit the content */
 }
 
-footer {
-    width: 100px;
-    height: 100px;
+footer {  /* bottom set of links */
+    width: 100px; /* width of the element */
+    height: 100px; /* the height of the element */
     border: 4px solid black;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
+    padding: 10px; /* space between content and border */
+    margin: 20px; /* space around the border */
+    text-align: center; /* text is centered */
 }
 
-.sidebar {background-color: rgba(52, 155, 121, .1);
-    position: fixed;
+.sidebar {background-color: rgba(52, 155, 121, .1);  /* background color of the sidebar */
+    position: fixed; /* set to fixed to the sidebar does not move */
     height: 100%;
     width: 125px;
     top: 5px;
     left: 5px;
 }
 
-.sidebar li {
-    list-style-type: none;
+.sidebar li { /* changes done to the sidebar list */
+    list-style: decimal-leading-zero; /* style of list is changed */
+    font-family: cursive; /* text font is changed */
 }
-.page-wrapper {
-    margin-left:200px;
-    padding-left: 30px;
+.page-wrapper { /* changes done to this section */
+    margin-left:200px; /* changed siz of the left side*/
+    padding-left: 30px; /* padding was added to the left side */
 }
 
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1;
-    color: black;
-    text-align: center;
+h2 { /* changes done to all <h2> tags */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font of the title */
+    font-size: 50px;  /* size of the text */ 
+    font-weight: 700; /* thickness of the each character in title */
+    line-height: 1;  /* sets the height of a horizontal line */
+    color: black;  /* color of the text */
+    text-align: center; /* centers the title */
 }
 
  
-a:link {
-    color: aliceblue;
+a:link { /* all links */
+    color: whitesmoke;  /* all of the links are white color */
 }
 
 
-a:hover {
-    color: black;
+a:hover { /* changes done to links */
+    color: black; /* when links are hovered over they turn black */
 }
 
-a:visited {
-    color: yellow;
+a:visited { /* specific changes to links */
+    color: yellow; /* once links are clicked they remain yellow */
 }
 
-.summary p {
-    background-color: rgba(52, 155, 121, .2);
+.summary p { /* changes to a certain section of the page */
+    background-color: rgba(52, 155, 121, .2);  /* changes the background color for the summary */
+    text-align: center;  /* text is centered */
 }
 
