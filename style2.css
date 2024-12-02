@@ -4,9 +4,41 @@ body{
     background-image: url(https://images7.alphacoders.com/133/thumb-1920-1338182.png);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+}
+
+.page-wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 4fr 2fr;
     border: 3px solid;
-    
-   
+    color: black
+}
+
+p {
+    line-height: 140%;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+
+}
+
+.sidebar {
+  position: relative;
+  top: 2px;
+  right: 2px;  
+}
+
+footer {
+padding: 10px;
+margin: 20px;
+text-align: right;
+}
+
+ul {
+    list-style: georgian;
 }
