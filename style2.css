@@ -7,10 +7,12 @@ body{
     color: white;
     font-size: 20px;
 }
+footer{position: fixed;top: 0;background-color: antiquewhite;}
 
-.page-wrapper {
+#zen-supporting, .wrapper{
     display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-columns: 6fr 4fr 2fr;
+    gap: 20px;
     border: 3px solid;
     color: black
 }
@@ -18,6 +20,10 @@ body{
 p {
     line-height: 140%;
     margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: 300;
+    
+
 }
 
 h1 {
@@ -26,19 +32,27 @@ h1 {
     font-weight: 300;
 
 }
+.benefits{
+    width: 200px;
+    background-color: rgba(rgb(248, 72, 3), green, blue, alpha);
+}
+ul { list-style: georgian;
+}
+a:link, a:visited {
+    color: white;
+    }
+    
 
 .sidebar {
-  position: relative;
   top: 2px;
-  right: 2px;  
+  right: 2px;
+  
 }
 
-footer {
-padding: 10px;
-margin: 20px;
-text-align: right;
-}
-
-ul {
-    list-style: georgian;
+.requirements {
+    margin-left: auto;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
