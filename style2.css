@@ -1,58 +1,74 @@
+/* google font used */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url(https://images7.alphacoders.com/133/thumb-1920-1338182.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+body{  /* changes made to the body */
+    font-family: 'Courier New', Courier, monospace; /* font for this section */
+    background-image: url(https://images7.alphacoders.com/133/thumb-1920-1338182.png);  /* background image for the site */
+    background-size: cover; /* image will cover the entire site */
+    background-repeat: no-repeat; /* image will not repeat */
+    color: white; /* text color */
     font-size: 20px;
 }
-footer{position: fixed;top: 0;background-color: antiquewhite;}
+footer{  /* changes made to the <footer> tag */
+    position: fixed; /* related to the position */
+    top: 0; /* value of the top of the footer */
+    background-color: antiquewhite;} /* color of the footer */ 
 
-#zen-supporting, .wrapper{
-    display: grid;
-    grid-template-columns: 6fr 4fr 2fr;
-    gap: 20px;
-    border: 3px solid;
-    color: black
+#zen-supporting, .wrapper{ /* changes made to these two areas */
+    display: grid; /* display is set to grid */
+    grid-template-columns: 6fr 4fr 2fr; /* grid sizing */
+    gap: 20px; /* size of gap around the areas */
+    border: 3px solid; /* border size */
+    color: black  /* color of the border */
 }
 
-p {
-    line-height: 140%;
-    margin-bottom: 1em;
-    font-size: x-large;
-    font-weight: 300;
+p { /* changes made to the <p> tag */
+    line-height: 140%; /* height of line */
+    margin-bottom: 1em;  /* size of the margin */
+    font-size: x-large;  /* size of the font */
+    font-weight: 300; /* font weight */
+}
+
+
+h1 { /*overall changes made to the <h1> */
+    font-size: 10px;  /* size of the font */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* font for this section */
+    font-weight: 300; /* weight of the font */
+
+}
+.benefits{ /* changes made to thi section */
+    width: 200px; /* width of the section */
     
-
 }
-
-h1 {
-    font-size: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-
+ul { list-style: georgian;  /* font for this section */
 }
-.benefits{
-    width: 200px;
-    background-color: rgba(rgb(248, 72, 3), green, blue, alpha);
-}
-ul { list-style: georgian;
-}
-a:link, a:visited {
-    color: white;
+a:link, a:visited { /* changes made to this section */
+    color: black; /* color for this section */
     }
     
 
-.sidebar {
-  top: 2px;
-  right: 2px;
+.sidebar { /* changes made to the sidebar */
+  top: 2px; /* size of the top */
+  right: 2px; /* size of the right side pixels */
   
 }
 
-.requirements {
-    margin-left: auto;
-    color: black;
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.requirements { /* changes made to this section */
+    margin-left: auto; /* margin on the left side */
+    color: black; /* color of the text */
+    font-size: 20px; /* size of the pixels */
+    font-weight: bolder; /* font to make it stand out */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /* font for this section */
+}
+
+h3 {  /* font size for this section */
+    font-size: xx-large;
+}
+
+.participation { /* changes to this section */
+    color: aliceblue; /* color of this section */
+}
+
+
+a:hover {  /* changes made to links */
+    color: white; /* color fo the links once hovered */
 }
